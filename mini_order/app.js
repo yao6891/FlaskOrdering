@@ -7,8 +7,8 @@ App({
         version: "1.0",
         shopName: "Python3 + Flask 订餐全栈系统",
         //sdomain:"http://192.168.0.119:8999/api",
-      sdomain:"http://127.0.0.1:8888/api",
-      domain: "http://127.0.0.1:8888/api"
+      sdomain:"https://food.54php.cn/api",
+      domain:"https://food.54php.cn/api"
     },
     tip:function( params ){
         var that = this;
