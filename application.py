@@ -24,7 +24,6 @@ manager = Manager(app)
 函数模板
 '''
 from common.libs.UrlManager import UrlManager
-
 app.add_template_global(UrlManager.build_static_url, 'buildStaticUrl')
 app.add_template_global(UrlManager.build_url, 'buildUrl')
 app.add_template_global(UrlManager.build_image_url, 'buildImageUrl')
