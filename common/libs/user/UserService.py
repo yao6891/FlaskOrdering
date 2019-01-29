@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
-import hashlib, base64, random, string
+import hashlib
+import base64
+import random
+import string
 
 
 class UserService():
@@ -25,3 +28,7 @@ class UserService():
     def generate_salt(length=16):
         key_list = [random.choice((string.ascii_letters + string.digits)) for i in range(length)]
         return "".join(key_list)
+
+
+if __name__ == '__main__':
+    print(UserService.generate_password("ty158917", "cF3JfH5FJfQ8B2Ba"))

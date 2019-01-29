@@ -379,3 +379,7 @@ CREATE TABLE `stat_daily_site` (
   PRIMARY KEY (`id`),
   KEY `idx_date` (`date`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='全站日统计';
+
+INSERT INTO `user` (`uid`, `nickname`, `mobile`, `email`, `sex`, `avatar`, `login_name`, `login_pwd`, `login_salt`, `status`, `updated_time`, `created_time`)
+VALUES
+	(1, '天涯明月笙', '18487255487', '1147727180@qq.com', 1, '', 'mtianyan', 'C8BB475CCC8AD21C3C2B3375C352E99F', 'cF3JfH5FJfQ8B2Ba', 1, '2018-11-27 22:31:00', '2018-11-27 22:31:00');
